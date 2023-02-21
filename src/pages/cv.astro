@@ -1,0 +1,103 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title = "Resume">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Sobre mim</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Tenho experiência prática com a criação de projetos web, trabalhando principalmente com JavaScript, Nodejs, Reactjs e Typescript. 
+    Atuei recentemente como desenvolvedora Front-End(estágio) na CVC Corp,
+     trabalhando em projetos que exigiram habilidades técnicas com o ecossistema de desenvolvimento web moderno, como HTML5, CSS3, JavaScript, Reactjs, styled-components, Git, jenkins e metodologias ágeis(Scrum e Kanban). 
+     Além disso, pude desenvolver habilidades complementares como boa organização, comunicação e colaboração para o trabalho em equipe, troca de informações e escrita de código limpo para facilitar manutenções.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experiência</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Desenvolvedora Web Front-End(estágio)"
+      subtitle="CVC corp (out de 2021 - jan de 2023 · 1 ano 4 meses)"
+      desc="Desenvolvimento de features e correções de bugs em  produção para o site web e logística da CVC. Também tive a experiência com documentação de projetos  e com  a área  de análise de qualidade fazendo teste de fluxo e teste regressão."
+    />
+    <TimeLineElement
+      title="Monitora da disciplina Programação Estruturada"
+      subtitle="Curso de Sistema de Informação - Faculdade UniFTC( Duração de um semestre - 2022)"
+      desc="Responsabilidade: auxiliar o professor e ajudar  os alunos com dúvidas e afins."
+    />
+  </div>
+
+  
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Formação acadêmica</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Sistemas de Informação"
+      subtitle="UniFTC"
+      desc="2020 - 2023(Cursando)"
+    />
+    </div>
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Licenças e certificados</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="https://cursos.alura.com.br/degree/certificate/5432828f-3a4b-468a-9b57-e3e6b02a3796" target="_blank">Formação Front-End - Alura</a>
+    </li>
+    <li>
+      <a href="https://cursos.alura.com.br/certificate/2786488e-6e80-40c0-986c-54fd13114443" target="_blank">React: escrevendo com Typescript - Alura</a>
+    </li>
+    <li>
+      <a href="https://cursos.alura.com.br/certificate/0cfe6289-573d-456d-98e6-a5b6c47fd4f8" target="_blank">TypeScript parte 1: evoluindo seu JavaScript - Alura</a>
+    </li>
+    <li>
+      <a href="/public/dowhile.pdf" target="_blank">DoWhile - Rocketseat</a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Habilidades</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>HTML e CSS</li>
+    <li>SASS</li>
+    <li>Styled Components</li>
+    <li>JavaScript</li>
+    <li>Typescript</li>
+    <li>Java Básico(OO)</li>
+    <li>SEO</li>
+    <li>MongoDB</li>
+    <li>SQL</li>
+    <li>Node.js</li>
+    <li>Vue</li>
+    <li>Wordpress</li>
+    <li>Git</li>
+    <li>Jira</li>
+    <li>Metodologias Ágeis</li>
+    <li>Astro</li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold"></div>
+  </div>
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Download do CV</div>
+  </div>
+      <p>
+      Amo bater um papo sobre projetos e oportunidades!
+      <p
+        ><br />Você pode baixar<a class="link" href="/mariavitt/cvmariavitoria.pdf" target="_blank">
+         <i>meu currículo</i></a
+        > aqui.</p
+      >
+    </p>
+</BaseLayout>
