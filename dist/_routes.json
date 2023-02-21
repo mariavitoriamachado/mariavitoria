@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "include": [
+    "/*"
+  ],
+  "exclude": [
+    "/cvmariavitoria.pdf",
+    "/dowhile.pdf",
+    "/favicon.svg",
+    "/itemPreview.png",
+    "/monitoria.pdf",
+    "/post_img.webp",
+    "/robots.txt",
+    "/_astro\\about.a01f9c05.css",
+    "/_astro\\_slug_.2f2bac13.css",
+    "/_worker.js"
+  ]
+}
