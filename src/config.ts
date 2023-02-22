@@ -3,3 +3,4 @@
 
 export const SITE_TITLE = 'Maria Vitória';
 export const SITE_DESCRIPTION = 'Site pessoal';
+export const SITE_URL ='https://mariavitoria.pages.dev'
