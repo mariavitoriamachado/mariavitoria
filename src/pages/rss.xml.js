@@ -5,6 +5,6 @@ export const get = () =>
 	rss({
 		title: SITE_TITLE,
 		description: SITE_DESCRIPTION,
-		site: import.meta.env.SITE_URL,
+		site: SITE_URL,
 		items: import.meta.glob('./blog/**/*.md'),
 	});
