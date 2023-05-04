@@ -1,16 +1,93 @@
 ---
-title: "Demo Post 1"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-pubDate: "Sep 10 2022"
-heroImage: "/post_img.webp"
+title: "Tutorial Git"
+description: "Neste tutorial, vamos cobrir os conceitos básicos de como usar o Git."
+pubDate: "May 3 2023"
+heroImage: "/public/git.png"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet.
 
-Morbi tristique senectus et netus. Id semper risus in hendrerit gravida rutrum quisque non tellus. Habitasse platea dictumst quisque sagittis purus sit amet. Tellus molestie nunc non blandit massa. Cursus vitae congue mauris rhoncus. Accumsan tortor posuere ac ut. Fringilla urna porttitor rhoncus dolor. Elit ullamcorper dignissim cras tincidunt lobortis. In cursus turpis massa tincidunt dui ut ornare lectus. Integer feugiat scelerisque varius morbi enim nunc. Bibendum neque egestas congue quisque egestas diam. Cras ornare arcu dui vivamus arcu felis bibendum. Dignissim suspendisse in est ante in nibh mauris. Sed tempus urna et pharetra pharetra massa massa ultricies mi.
 
-Mollis nunc sed id semper risus in. Convallis a cras semper auctor neque. Diam sit amet nisl suscipit. Lacus viverra vitae congue eu consequat ac felis donec. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Eget magna fermentum iaculis eu non diam. In vitae turpis massa sed elementum. Tristique et egestas quis ipsum suspendisse ultrices. Eget lorem dolor sed viverra ipsum. Vel turpis nunc eget lorem dolor sed viverra. Posuere ac ut consequat semper viverra nam. Laoreet suspendisse interdum consectetur libero id faucibus. Diam phasellus vestibulum lorem sed risus ultricies tristique. Rhoncus dolor purus non enim praesent elementum facilisis. Ultrices tincidunt arcu non sodales neque. Tempus egestas sed sed risus pretium quam vulputate. Viverra suspendisse potenti nullam ac tortor vitae purus faucibus ornare. Fringilla urna porttitor rhoncus dolor purus non. Amet dictum sit amet justo donec enim.
+ O Git é uma ferramenta de controle de versão muito popular usada por desenvolvedores de software para gerenciar e colaborar em projetos de código aberto. Neste tutorial, vamos cobrir os conceitos básicos de como usar o Git.
 
-Mattis ullamcorper velit sed ullamcorper morbi tincidunt. Tortor posuere ac ut consequat semper viverra. Tellus mauris a diam maecenas sed enim ut sem viverra. Venenatis urna cursus eget nunc scelerisque viverra mauris in. Arcu ac tortor dignissim convallis aenean et tortor at. Curabitur gravida arcu ac tortor dignissim convallis aenean et tortor. Egestas tellus rutrum tellus pellentesque eu. Fusce ut placerat orci nulla pellentesque dignissim enim sit amet. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Id donec ultrices tincidunt arcu. Id cursus metus aliquam eleifend mi.
+Passo 1: Instalar o Git
 
-Tempus quam pellentesque nec nam aliquam sem. Risus at ultrices mi tempus imperdiet. Id porta nibh venenatis cras sed felis eget velit. Ipsum a arcu cursus vitae. Facilisis magna etiam tempor orci eu lobortis elementum. Tincidunt dui ut ornare lectus sit. Quisque non tellus orci ac. Blandit libero volutpat sed cras. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Egestas integer eget aliquet nibh praesent tristique magna.
+Antes de começar, você precisa instalar o Git em sua máquina. Você pode baixá-lo em https://git-scm.com/downloads e seguir as instruções para instalar em seu sistema operacional.
+
+Passo 2: Configurar o Git
+
+Após a instalação do Git, você precisa configurar o seu nome de usuário e endereço de e-mail. Abra um terminal e execute os seguintes comandos:
+
+```
+git config --global user.name "Seu Nome"
+```
+```
+git config --global user.email "seuemail@example.com"
+```
+
+Passo 3: Criar um repositório Git
+
+Para criar um repositório Git, vá para o diretório onde deseja armazenar o projeto e execute o seguinte comando:
+
+```
+git init
+```
+
+Passo 4: Adicionar arquivos ao repositório
+
+Agora, adicione os arquivos que deseja controlar na pasta do repositório Git com o comando:
+
+```
+git add <nome_do_arquivo>
+```
+
+Você também pode adicionar todos os arquivos de uma vez usando o seguinte comando:
+
+```
+git add .
+```
+
+Passo 5: Confirmar as alterações
+
+Depois de adicionar os arquivos, você precisa confirmar as alterações com uma mensagem de commit usando o seguinte comando:
+
+```
+git commit -m "mensagem de commit"
+```
+
+Passo 6: Ramificação e Mesclagem
+
+Agora, você pode criar uma nova ramificação do projeto com o comando:
+
+```
+git branch <nome_da_ramificação>
+```
+
+Você pode alternar entre as ramificações com o comando:
+
+```
+git checkout <nome_da_ramificação>
+```
+
+Depois de fazer alterações em uma ramificação, você pode mesclá-la de volta à ramificação principal com o comando:
+
+```
+git merge <nome_da_ramificação>
+```
+
+Passo 7: Enviar alterações para o repositório remoto
+
+Finalmente, você pode enviar suas alterações para um repositório remoto (como o GitHub) usando os seguintes comandos:
+
+```
+git remote add origin <endereço_do_repositório>
+```
+```
+git push -u origin master
+```
+Isso enviará suas alterações para o repositório remoto na ramificação "master".
+
+Estes são os passos básicos para começar a usar o Git.
+
+
+
+
