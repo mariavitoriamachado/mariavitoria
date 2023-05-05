@@ -2,7 +2,7 @@
 title: "Tutorial Git"
 description: "Neste tutorial, vamos cobrir os conceitos básicos de como usar o Git."
 pubDate: "May 3 2023"
-heroImage: "/src/assets/posts/git.png"
+heroImage: "./assets/post/git.png"
 ---
 
 
