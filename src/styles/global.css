@@ -1,3 +1,27 @@
 .time-line-container>div:last-child .education__time>.education__line {
     display: none;
 }
+
+ body {
+    font-family: "Crimson Text", serif;
+  }
+  
+  .cv-link {
+  margin-top: 8px;
+  background-color: #0A2A4F; /* cor de fundo */
+  border: none; /* sem borda */
+  color: #9ED9CC; /* cor do texto */
+  padding: 10px 10px; /* espaçamento interno */
+  text-align: center; /* alinhamento do texto */
+  text-decoration: none; /* sem sublinhado */
+  
+  font-size: 16px; /* tamanho da fonte */
+  margin: 10px; /* margem externa */
+  cursor: pointer; /* cursor ao passar o mouse */
+  border-radius: 5px; /* borda arredondada */
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2); /* sombra */
+  }
+
+  .cv-link:hover {
+    background-color: #6B3FA0;
+  }
