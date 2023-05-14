@@ -1,6 +1,6 @@
 ---
 title: "Tutorial Git"
-description: "Neste tutorial, vamos cobrir os conceitos básicos de como usar o Git."
+description: "Tutorial para aprender os conceitos básicos de como usar o Git."
 pubDate: "May 3 2023"
 heroImage: "/git.png"
 ---
@@ -22,7 +22,8 @@ Git é um sistema de controle de versão distribuído, ou seja, ele permite que 
 
 ### Instalação do Git
 Antes de começar, você precisa instalar o Git em sua máquina. Você pode baixá-lo em https://git-scm.com/downloads e seguir as instruções para instalar em seu sistema operacional.
-###Configuração do Git
+
+### Configuração do Git
 
 Antes de começar a usar o Git, é importante configurar algumas informações básicas, como seu nome e endereço de e-mail. Para isso, use os seguintes comandos:
 
